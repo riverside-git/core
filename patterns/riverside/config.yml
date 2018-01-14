@@ -1,0 +1,53 @@
+info:
+    name: "RVR1"
+    description: "Riverside RVR1"
+    handle: "Riverside RVR1"
+    tags:
+        - menswear
+        - trousers
+        - bottom
+
+parts:
+    front: "Front"
+    back: "Back"
+    backPocket: "Backpocket"
+    backPocketLining: "Backpocket Lining"
+    
+languages:
+    en: "English"
+    nl: "Nederlands"
+    de: "Deutsch"
+
+measurements:
+    sideseamLength: 1040
+    inseamLength: 810
+    waistGirth: 830
+    hipGirth: 960
+    legOpening: 380
+    kneeHeight: 460
+
+options:
+    waistbandWidth:
+        title: "Waistband width"
+        description: "The width of the waistband."
+        group: "fit"
+        type: "measure"
+        min: 20
+        max: 60
+        default: 40
+    backRise:
+        title: "Back rise"
+        description: "The amount by which to raise the back."
+        group: "fit"
+        type: "measure"
+        min: 0
+        max: 60
+        default: 40
+    lengthBonus:
+        title: "Length bonus"
+        description: "The amount by which to lengthen the legs. Negative values shorten them."
+        group: "fit"
+        type: "measure"
+        min: -60
+        max: 80
+        default: 0
